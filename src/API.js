@@ -1,2 +1,2 @@
-const apiBaseUrl = process.env.REACT_APP_API
+const apiBaseUrl = 'https://www.odissispice.com'
 export const API = `${apiBaseUrl}wp-json/wp/v2`;
