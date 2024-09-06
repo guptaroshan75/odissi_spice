@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 22 24" width="22" height="24">
+	<title>phone-icon</title>
+	<defs>
+		<image  width="22" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAYCAMAAADJYP15AAAAAXNSR0IB2cksfwAAADlQTFRFGxkbJiUnu7q7+/v7////8vHyjIyNGhkbhIOF9/f34uLiSklKj46P+vr65+fnVVVWxMPEX15g6OjodXH0BgAAAEhJREFUeJxjZMAKGKkmzAgEUC4j40+4MAfjb5gyNsavcGEeoKIfIAYrkPFx+Ap/h3meC10YqOUTqjA4qCDCyEGFI2BxRAOlwgBSnyAZrXUt1QAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

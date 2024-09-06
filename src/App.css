@@ -1,38 +1,132 @@
-.App {
-  text-align: center;
+::-webkit-scrollbar {
+  width: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+::-webkit-scrollbar-track {
+  background: #d8d8d8;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+::-webkit-scrollbar-thumb {
+  background: #9E1B32;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9E1B32;
+}
+
+.carousel_testimonials .react-multiple-carousel__arrow {
+  background: none !important;
+}
+
+.carousel_testimonials .react-multiple-carousel__arrow::before {
+  font-size: 30px !important;
+  color: #C9AB81 !important;
+  margin-top: -50px;
+}
+
+.carousel_testimonials .react-multiple-carousel__arrow--right {
+  right: calc(2% + 1px) !important;
+}
+
+.carousel_testimonials .react-multiple-carousel__arrow--left {
+  left: calc(2% + 1px) !important;
+}
+
+.carousel_testimonials .react-multi-carousel-dot button {
+  border: none !important;
+  background-color: #D6D6D6;
+  height: 11px !important;
+  width: 11px !important;
+}
+
+.carousel_testimonials .react-multi-carousel-dot--active button {
+  background: #869791 !important
+}
+
+br {
+  display: none;
+}
+
+.prepostion p {
+  line-height: 2rem;
+}
+
+@media (min-width: 320px) {
+  .carousel_testimonials {
+    padding: 10px 0px 50px 0px;
+  }
+
+  .carousel_testimonials .react-multiple-carousel__arrow::before {
+    display: none;
+  }
+
+  .react-multi-carousel-dot-list {
+    padding-bottom: 17px !important;
+  }
+
+  .bg_footer {
+    background-image: url('../public/assets/add-main.svg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (min-width: 640px) {
+  .carousel_testimonials {
+    padding: 30px 0px 80px 0px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .react-multi-carousel-dot-list {
+    padding-bottom: 40px !important;
+  }
+
+  .carousel_testimonials .react-multiple-carousel__arrow::before {
+    display: block;
+  }
+
+  .bg_footer {
+    background-image: url('../public/assets/add-main.svg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 768px) {
+  .carousel_testimonials {
+    padding: 20px 0px 40px 0px;
+  }
+
+  .react-multi-carousel-dot-list {
+    padding-bottom: 7px !important;
+  }
+
+  .carousel_testimonials .react-multiple-carousel__arrow::before {
+    display: block;
+  }
+
+  .bg_footer {
+    background-image: url('../public/assets/add-main.svg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: 1024px) {
+  .carousel_testimonials {
+    padding: 40px 0px 75px 0px;
+  }
+
+  .carousel_testimonials .react-multiple-carousel__arrow::before {
+    display: block;
+  }
+
+  .bg_footer {
+    background-image: url('../public/assets/prefooter_bg.svg');
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 }
